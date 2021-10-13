@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Patrick Hand', cursive;
+}
+.container{
+    max-width: 1000px;
+    background:#E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+#profile-image {
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+ 
+}
+.header-bio{
+    padding: 25px;
+    float: left;
+   
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*
+ personal section start
+*/
+
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+width: 70%;
+float: left;
+}
+
+.common-hr{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.frist-right-div{
+    width: 45%;
+    float: left;
+}
+.second-right-div{
+    width: 45%;
+    float: right;
+}
+
+.finisher{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.finisher a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.finisher p {
+    color: white;
+    margin: 20px;
+}
